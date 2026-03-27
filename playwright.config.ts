@@ -1,6 +1,6 @@
-import { createLovableConfig } from "lovable-agent-playwright-config/config";
+import { createcafe-websiteConfig } from "cafe-website-agent-playwright-config/config";
 
-export default createLovableConfig({
+export default createcafe-websiteConfig({
   // Add your custom playwright configuration overrides here
   // Example:
   // timeout: 60000,

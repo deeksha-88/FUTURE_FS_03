@@ -35,8 +35,8 @@ const ContactSection = () => {
           >
             <div className="space-y-6 mb-8">
               {[
-                { icon: MapPin, label: "Address", value: "142 Elm Street, Brooklyn, NY 11201" },
-                { icon: Phone, label: "Phone", value: "(718) 555-0192" },
+                { icon: MapPin, label: "Address", value: "Steelplant, Vizag, India-530032" },
+                { icon: Phone, label: "Phone", value: "(91) 25555 01923" },
                 { icon: Mail, label: "Email", value: "hello@beanandbliss.com" },
                 { icon: Clock, label: "Hours", value: "Mon–Fri 7am–8pm · Sat–Sun 8am–9pm" },
               ].map(({ icon: Icon, label, value }) => (
@@ -77,14 +77,12 @@ const ContactSection = () => {
             <div className="rounded-xl overflow-hidden border border-border h-56">
               <iframe
                 title="Bean & Bliss location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.263!2d-73.9857!3d40.6892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQxJzIxLjEiTiA3M8KwNTknMDguNSJX!5e0!3m2!1sen!2sus!4v1"
-                width="100%"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.8411560664977!2d83.17304387495284!3d17.610276183315452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3969b1dfffbd55%3A0x3a803ed92d9e559f!2sVizag%20Steel%20Plant!5e0!3m2!1sen!2sin!4v1775431844534!5m2!1sen!2sin" width="400">
                 height="100%"
-                style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              />
+              </iframe>
             </div>
           </div>
 

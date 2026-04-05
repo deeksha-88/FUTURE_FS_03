@@ -5,24 +5,24 @@ const categories = ["Coffee", "Snacks", "Sweets"] as const;
 
 const menuItems = {
   Coffee: [
-    { name: "Espresso", description: "Rich, bold single shot", price: "$3.50" },
-    { name: "Americano", description: "Smooth espresso with hot water", price: "$4.00" },
-    { name: "Cappuccino", description: "Espresso with steamed milk foam", price: "$4.50" },
-    { name: "Café Latte", description: "Creamy espresso with velvety milk", price: "$5.00" },
-    { name: "Flat White", description: "Double shot with microfoam", price: "$5.00" },
-    { name: "Mocha", description: "Espresso, chocolate, steamed milk", price: "$5.50" },
+    { name: "Espresso", description: "Rich, bold single shot", price: "340/-" },
+    { name: "Americano", description: "Smooth espresso with hot water", price: "400/-" },
+    { name: "Cappuccino", description: "Espresso with steamed milk foam", price: "380/-" },
+    { name: "Café Latte", description: "Creamy espresso with velvety milk", price: "420/-" },
+    { name: "Flat White", description: "Double shot with microfoam", price: "430/-" },
+    { name: "Mocha", description: "Espresso, chocolate, steamed milk", price: "360/-" },
   ],
   Snacks: [
-    { name: "Avocado Toast", description: "Sourdough, smashed avo, chili flakes", price: "$8.50" },
-    { name: "Club Sandwich", description: "Triple-decker with chicken & bacon", price: "$9.00" },
-    { name: "Grilled Panini", description: "Mozzarella, tomato & basil pressed", price: "$7.50" },
-    { name: "Granola Bowl", description: "Greek yogurt, honey, seasonal fruit", price: "$7.00" },
+    { name: "Avocado Toast", description: "Sourdough, smashed avo, chili flakes", price: "520/-" },
+    { name: "Club Sandwich", description: "Triple-decker with chicken & bacon", price: "380/-" },
+    { name: "Grilled Panini", description: "Mozzarella, tomato & basil pressed", price: "470/-" },
+    { name: "Granola Bowl", description: "Greek yogurt, honey, seasonal fruit", price: "600/-" },
   ],
   Sweets: [
-    { name: "Butter Croissant", description: "Flaky, golden, baked fresh daily", price: "$3.50" },
-    { name: "Chocolate Cake", description: "Rich dark chocolate layer cake", price: "$5.50" },
-    { name: "Blueberry Muffin", description: "Moist with real blueberries", price: "$4.00" },
-    { name: "Cinnamon Roll", description: "Warm, gooey cream cheese glaze", price: "$4.50" },
+    { name: "Butter Croissant", description: "Flaky, golden, baked fresh daily", price: "400/-" },
+    { name: "Chocolate Cake", description: "Rich dark chocolate layer cake", price: "600/-" },
+    { name: "Blueberry Muffin", description: "Moist with real blueberries", price: "400/-" },
+    { name: "Cinnamon Roll", description: "Warm, gooey cream cheese glaze", price: "450/-" },
   ],
 };
 
